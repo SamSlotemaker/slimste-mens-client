@@ -1,0 +1,39 @@
+.turn_buttons {
+  margin: 3rem;
+  background-color: rgba(255, 255, 255, 0.814);
+  padding: 3rem;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.stop_time_button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(178, 9, 9);
+  border-radius: 50%;
+  font-size: 2.5em;
+  color: white;
+  border: none;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.477);
+  width: 15rem;
+  height: 15rem;
+}
+
+.change_turn_button {
+  cursor: pointer;
+  display: block;
+  // width: 15rem;
+  flex-grow: 1;
+  height: 4rem;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+  border: none;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.477);
+  background-color: rgb(4, 61, 194);
+  color: white;
+}

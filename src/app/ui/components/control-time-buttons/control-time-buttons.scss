@@ -1,0 +1,29 @@
+.control_time_buttons {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  gap: 2rem;
+
+  h2 {
+    margin-right: 2rem;
+    color: white;
+    min-width: 200px;
+  }
+
+  .add_time_button {
+    &:first-of-type {
+      background-color: red;
+    }
+    flex-grow: 1;
+    cursor: pointer;
+    display: block;
+    width: auto;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    border: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.477);
+    background-color: rgb(9, 126, 26);
+    color: white;
+  }
+}
