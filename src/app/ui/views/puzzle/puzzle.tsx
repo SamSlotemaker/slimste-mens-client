@@ -3,12 +3,18 @@ import "./puzzle.scss";
 const ControlView: React.FC<any> = ({ socket, puzzleWords }) => {
   const [words, setWords] = useState<any>(null);
 
+  const playSound = () => {
+    let audio = new Audio("/ping.mp3");
+    audio.play();
+  };
+
   const correctWord = (set) => {
     setWords((oldState) => {
       const newState = [...oldState];
       newState.map((word) => {
         if (word.set === set) {
           word.guessed = true;
+          playSound();
           return word;
         }
         return word;
