@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/slimste-mens-client/static/css/main.d0d1aedc.css",
+    "main.js": "/slimste-mens-client/static/js/main.e2c27a9d.js",
+    "index.html": "/slimste-mens-client/index.html",
+    "main.d0d1aedc.css.map": "/slimste-mens-client/static/css/main.d0d1aedc.css.map",
+    "main.e2c27a9d.js.map": "/slimste-mens-client/static/js/main.e2c27a9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0d1aedc.css",
+    "static/js/main.e2c27a9d.js"
+  ]
+}
